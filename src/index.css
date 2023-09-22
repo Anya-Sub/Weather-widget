@@ -6,7 +6,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-
+    background: url(./img/background.jpeg);
 }
 
 code {
@@ -20,8 +20,11 @@ code {
   justify-content: center;
   align-items: center;
 }
+h2{
+  color: white;
+}
 .weather-block{
-  background-color: rgb(186, 230, 242);
+  
   width:25% ;
   border: 2px solid grey;
   display: flex;
@@ -37,6 +40,7 @@ code {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  color: white;
 }
 .input-town{
   width: 24%;
@@ -63,5 +67,59 @@ code {
 }
 .loading-gif{
   width: 50px;
+}
+#center-object{
+  display: flex;
+  justify-content: center!important;
+}
+.weather-block__item-1{
+  font-size: 30px;
+  justify-content: center;
+  margin-bottom: 10px;
+  color: white;
+}
+@media(max-width:713px){
+  .weather-block{
+    width: 40%;
+  }
+  .input-town{
+    width: 40%;
+  }
+  .inf-btn{
+    width: 40%;
+  }
+}
+@media(max-width:557px){
+  .weather-block{
+    width: 50%;
+  }
+  .input-town{
+    width: 50%;
+  }
+  .inf-btn{
+    width: 50%;
+  }
+}
+@media(max-width:493px){
+  .weather-block{
+    width: 60%;
+  }
+  .input-town{
+    width: 60%;
+  }
+  .inf-btn{
+    width: 60%;
+  }
+}
+@media(max-width:387px){
+  .weather-block{
+    width: 80%;
+  }
+  .input-town{
+    width: 80%;
+  }
+  .inf-btn{
+    width: 80%;
+  }
 }
 

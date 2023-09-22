@@ -45,7 +45,7 @@ function App() {
         ) : (
           <div className='weather-block'>
             
-            <div className='weather-block__item'>
+            <div  className='weather-block__item-1'>
                <span className='result'>{city}</span> <div className='weather-block__img'>
               {
                 weatherIcon === '' ? '' : <img src={`http://openweathermap.org/img/wn/${weatherIcon}.png`} alt='weather-img' />
